@@ -39,7 +39,7 @@
                   v-model="transaction.transactionDate"
                   prepend-icon="event"
                   readonly
-                ></v-text-field>                
+                ></v-text-field>
                 <v-date-picker
                   v-model="transaction.transactionDate"
                   v-on:input="$refs.datePicker.save(transaction.transactionDate)"
